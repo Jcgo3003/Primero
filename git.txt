@@ -1,0 +1,37 @@
+Git comandos
+
+git config / Muestra todas las configuraciones disponibles
+git config --list / Muestra las configuraciones por defecto de git y lo que le falta 
+git config --list --show-origin / Muestra donde están guardadas todas esas configuraciones
+Git config --global / Para cambiar todos los usuarios globales
+git config --global user.name "Tu nombre" / Para cambiar el nombre del usuario
+git config --global user.email "tuemail@etc.com" / Para agregar el correo
+git reset "Version a la que quires regresar" --hard / Para regresar entre versiones  Puedes elegir entre, hard el mas común, esto modifica directamente al archivo en cuestión, --soft aquí solo te regresa a la version que tu escogiste, todo lo que este en el stage area esta aun ahíq
+
+Esto aplica a todos los archivos del proyecto y no solo a uno, por lo que incluso borra archivos que no
+Estubieron en el pasado
+
+git log "tuArchivo" / Te muestra la historia
+git show / Te muestra los últimos cambios a nivel global en el repositorio
+
+git diff "versionMasNueva" "versionasVieja" / Para hace una comparación entre dos commit/versiones
+
+
+Cuando estén renombrado archivos o cambiando la ubicación de los archivos dentro del repositorio , utilicen el comando 
+git mv / Si no se hace así, se pierde el tracking que hace git y después se pueden generar bastantes conflictos.
+
+------------------------------------------------
+Si agrego un commit sin agregarle ningún mensaje
+Para salir del editor se teclean:
+Esc + shift + zz / Es lo mismo que guardar pero en vim
+
+O
+
+Esc + :qw
+
+O 
+
+Shift + q
+--------------------------------------
+Para comenzar a editar en el editor de código de vim
+Esc + I
