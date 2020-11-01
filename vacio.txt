@@ -17,3 +17,6 @@ Despise del primer checkout.
 BLU BLI BLU
 y mas tonterias solo para 
 jugar con esta tonteria.
+
+No pude editar nada por que mi git local esta conectado solo mi 
+primera cuenta.
