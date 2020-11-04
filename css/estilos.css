@@ -26,9 +26,9 @@ img {
 
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
-  bottom: 0;
+  bottom: -10px;
   width: 100%;
   padding: 1px 20px;
   margin: 1;
